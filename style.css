@@ -1,0 +1,104 @@
+.nav-bar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nav-bar i {
+  color: #89cff0;
+  cursor: pointer;
+}
+
+.paragraph {
+  color: #89cff0;
+  font-size: 15px;
+}
+
+.body.uk-offcanvas-close {
+  color: #89cff0;
+}
+
+.body .uk-offcanvas-bar {
+  background-color: #fff;
+}
+
+.uk-nav-header {
+  color: #89cff0 !important;
+}
+
+.uk-nav-divider {
+  border-top: 1px solid rgb(253, 174, 187) !important;
+}
+
+.uk-margin-right {
+  color: #89cff0 !important;
+}
+
+.link {
+  color: #89cff0 !important;
+}
+.title {
+  color: #89cff0;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.right {
+  background-color: #89cff0;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
+.right i {
+  padding-top: 15px;
+  text-align: center;
+  color: rgb(253, 174, 187);
+}
+
+/*----end of nav-bar-----------*/
+
+.main-box {
+  margin-bottom: 10px;
+}
+
+.uk-margin {
+  border-style: solid;
+  border-width: 0.5px;
+  width: 80%;
+  border-color: #89cff0;
+}
+
+input::placeholder {
+  color: rgb(255, 157, 173) !important;
+}
+
+.uk-margin .uk-input {
+  border: none;
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgb(255, 157, 173) !important;
+  height: 70px;
+}
+
+.delete {
+  border: none;
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  color: #89cff0;
+  background-color: #fff;
+}
+
+.delete:hover {
+  color: rgb(253, 174, 187);
+  cursor: pointer;
+  transition: ease all 1sec;
+}
+/*-------end of main-box-----*/
+
+#tasks #taskname {
+  margin-right: 200px;
+}

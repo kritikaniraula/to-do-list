@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To do list</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/0ecbe17838.js"crossorigin="anonymous"></script>
+   <!-- CSS only -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/css/uikit.min.css" />
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.13/dist/js/uikit-icons.min.js"></script>
+</head>
+<body class=" body">    
+    
+   <div class="nav-bar">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-between">
+                <div class="left">
+                    <div class=" uk-margin-small-right" uk-toggle="target: #offcanvas-reveal"><i class="fa-solid fa-ellipsis fa-3x"></i></div>          
+                    <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true">
+                        <div class="uk-offcanvas-bar">
+                            <div class="title">Hello Kritika!</div>
+                            <p class="paragraph">This is a tool to plan your daily activities.You can create a list of things you want to do every day and not to forget your important days.This to do list will help you to make your day productive and manage your time as well.</p>    
+                            <li class="uk-nav-divider"></li> 
+                            
+                            <ul class="uk-nav uk-nav-default">
+                                <li class="uk-nav-header"></li>
+                                <li><a href="#" class="link"><span class="uk-margin-right" uk-icon="icon: table"></span> Canvas</a></li>
+                                <li><a href="#"  class="link"><span class="uk-margin-right" uk-icon="icon: thumbnails"></span>Tools</a></li>
+                                <li><a href="#"  class="link"><span class="uk-margin-right" uk-icon="icon: trash"></span> Delete</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <!---end of left--->
+                
+            </div>
+        </div>
+   </div>
+   <!------end of nav-bar--------------->
+   <div class="main-box">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-between">
+               <div class="uk-margin input" id="container">
+                    <input class="uk-input input uk-form" type="text" placeholder="Please enter a task..." aria-label="Input">                               
+                </div>
+                <div class="right" id="add">
+                    <i class="fa-solid fa-plus fa-3x"></i>
+                </div>                
+                <!---end of right---->
+                
+           </div>   
+           <div class="uk-container">
+            <div id="tasks"></div>
+          </div>      
+        </div>
+   </div>
+   <!---end of main-box------>
+   
+</body>
+<script src="./script.js" type="module"></script>
+</html>
